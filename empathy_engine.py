@@ -1,19 +1,4 @@
-"""
-Mechanistic Empathy Engine — Open-source framework for generating empathy games
-from verified neurobiological condition profiles.
 
-Map real biology → game mechanics.
-Auto-generate educational games that teach what it feels like.
-
-Supports export to: Pygame, Arcade, Pygame Zero, Pyglet, Panda3D,
-                    Ursina, Cocos2d, Kivy, PyOpenGL scaffold.
-
-Usage (library):
-    from mechanistic_empathy_engine import MechanisticEngine
-    engine = MechanisticEngine()
-    game = engine.generate_game("depression", "platformer")
-    engine.export_game(game, "./output", engine_target="pygame")
-"""
 
 __version__ = "1.2.0"
 __author__  = "the guy who made it lol"
@@ -2490,4 +2475,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
